@@ -281,7 +281,7 @@ const setupPane = () => {
 			title: "View Source",
 		})
 		.on("click", () => {
-			window.open("https://github.com/evadecker/lissajous-svg");
+			window.open("https://github.com/kydecker/lissajous-svg");
 		});
 
 	buttons

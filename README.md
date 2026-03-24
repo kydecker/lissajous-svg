@@ -4,7 +4,7 @@
 
 An SVG generator for [Lissajous curves](https://en.wikipedia.org/wiki/Lissajous_curve).
 
-Use the tool at https://lissajous.eva.town/, or download the repo and run locally with `pnpm run dev`.
+Use the tool at https://lissajous.ky.fyi/, or download the repo and run locally with `pnpm run dev`.
 
 Play with the `frequency` and `phase` for interesting results.
 
