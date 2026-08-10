@@ -1,0 +1,5 @@
+packages:
+  - lissajous-svg
+allowBuilds:
+  esbuild: false
+  workerd: false
