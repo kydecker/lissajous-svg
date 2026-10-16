@@ -33,7 +33,7 @@
 		"@playwright/test": "^1.58.2",
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/adapter-cloudflare": "^7.2.9",
-		"@sveltejs/kit": "^2.55.0",
+		"@sveltejs/kit": "^2.70.3",
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
 		"@types/eslint": "^9.6.1",
 		"svelte": "^5.55.0",
