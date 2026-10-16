@@ -159,12 +159,14 @@ const draw = () => {
 	}
 };
 
+const STORAGE_KEY = "tweakpane-preset";
+
 const setupPane = () => {
 	const pane = new Pane({
 		container: document.getElementById("controls") ?? undefined,
 	}).on("change", () => {
 		const state = JSON.stringify(pane.exportState());
-		localStorage.setItem("tweakpane-preset", state);
+		localStorage.setItem(STORAGE_KEY, state);
 		draw();
 	});
 
@@ -294,7 +296,7 @@ const setupPane = () => {
 
 	const initialState = pane.exportState();
 
-	const preset = localStorage.getItem("tweakpane");
+	const preset = localStorage.getItem(STORAGE_KEY);
 	if (preset) {
 		try {
 			pane.importState(JSON.parse(preset));
